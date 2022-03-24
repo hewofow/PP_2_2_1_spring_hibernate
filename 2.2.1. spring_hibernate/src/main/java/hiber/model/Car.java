@@ -12,7 +12,7 @@ public class Car {
     private String model;
     private int series;
 
-    @OneToOne(mappedBy = "car", cascade = CascadeType.ALL)
+    @OneToOne
     private User user;
 
     public Car(){

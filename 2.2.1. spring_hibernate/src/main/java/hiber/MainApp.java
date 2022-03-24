@@ -36,7 +36,7 @@ public class MainApp {
                     "\nCar Series = " + user.getCar().getSeries() + "\n");
         }
 
-        User user = userService.getUser("Mazda", 11);
+        User user = userService.getUserByCar("Mazda", 11);
         if (user != null) {
             System.out.println("\nId = " + user.getId() +
                     "\nFirst Name = " + user.getFirstName() +
